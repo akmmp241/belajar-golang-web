@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="id">
+<body>
+{{range $index, $hobby := .Hobbies}}
+    <h1>{{$index}}. {{$hobby}}</h1>
+{{else}}
+    <h1>Kosong</h1>
+{{end}}
+</body>
+</html>
